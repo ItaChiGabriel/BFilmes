@@ -1,0 +1,28 @@
+{
+  "name": "desafio-do-soma",
+  "version": "1.0.0",
+  "description": "Filme",
+  "main": "main.ts",
+  "scripts": {
+    "start": "node app.js",
+    "backend": "nodemon app.js",
+    "frontend": "npm run start --prefix frontend",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "BGFilmes"
+  },
+  "keywords": [
+    "gabriel"
+  ],
+  "author": "Gabriel Gomes",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.3.0",
+    "nodemon": "^1.10.2"
+  },
+  "devDependencies": {
+    "typescript": "^2.0.6"
+  }
+}

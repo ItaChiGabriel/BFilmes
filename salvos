@@ -1,0 +1,39 @@
+.navvideo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    box-sizing: border-box;
+    height: 100%;
+    left: 0px;
+    opacity: 1;
+    position: fixed;
+    transition: opacity 500ms linear 0s;
+    pointer-events: auto;
+    width: 100%;
+    will-change: auto;
+    z-index: 100;
+    overflow: hidden;  
+    display: none;    
+}
+
+#assistir{    
+    position: relative;
+    z-index: 100;
+    left: 0px;
+    top: -70px;   
+    width: 100%;
+    margin-top: auto;
+}
+
+@media (max-width: 2140px){
+    #assistir{
+top: 0px;
+    }
+}
+
+@media (max-width: 2078px){
+    #assistir{
+        top: -100;
+    }
+}
